@@ -13,6 +13,10 @@ a:visited {
     color: rgb(108, 108, 255);
 }
 
+h1 {
+    text-shadow: 2px /* x-axis */ 2px /* y-axis */ 4px /* blur */ #091d30;
+}
+
 body {
     background-color: #01274b;
     color: white; /* text color */
@@ -24,10 +28,14 @@ body {
 #banner {
     display: flex;
     flex-direction: row;
-    background-color: #185084;
-    width: 100%;
+    background-image: linear-gradient(#2675c0, #185084);
+    max-width: 100%;
     height: 75px;
     margin: 0px;
     padding: 8px;
     font-family:Verdana, sans-serif;
+}
+
+#template-img {
+    width: 20%;
 }
