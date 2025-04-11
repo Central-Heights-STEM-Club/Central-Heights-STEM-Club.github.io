@@ -5,7 +5,7 @@ html {
 
 /* sets the color of unvisited links */
 a:link {
-    color: rgb(136, 136, 255);
+    color: rgb(255, 136, 136);
 }
 
 /* sets the color of visited links */
