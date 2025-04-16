@@ -5,7 +5,7 @@ html {
 
 /* sets the color of unvisited links */
 a:link {
-    color: rgb(255, 136, 136);
+    color: rgb(136, 136, 255);
 }
 
 /* sets the color of visited links */
@@ -23,6 +23,7 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #banner {
